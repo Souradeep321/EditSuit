@@ -3,11 +3,19 @@
     margin: 0;
 }
 
+body{
+    background-color: #fff;
+}
+
 /* navbar section */
 #navbar {
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: sticky;
+    top: 0;
+    height: 60px;
 }
 
 #navbar ul {
@@ -33,5 +41,29 @@
 
 .nav-buttons {
     display: flex;
-    gap: 33px;
+    gap: 23px;
 }
+
+/*Hero Section */
+#hero{
+    height: 85vh;
+    background-image: url('./images/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero div{
+    height: 85vh;
+    color: #fff;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#hero div > span{
+    padding-left: 23px;
+    font-size: 48px;
+}
+
