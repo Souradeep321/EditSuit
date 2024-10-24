@@ -67,3 +67,40 @@ body{
     font-size: 48px;
 }
 
+/* Book your appointment section */
+.appoint-container{
+    display: flex;
+    height: 86px;
+    align-items: center;
+}
+
+.appoint-container p{
+    width: 50%;
+    /* border: 2px solid; */
+    font-size: 18px;
+    padding: 0 87px;
+}
+
+.appoint-container div{
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.appoint-container div button{
+    padding:20px  23px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 0;
+    transition: all .3s;
+}
+
+.appoint-container div button:hover{
+    background-color: rgb(21, 21, 21);
+}
+
+
