@@ -1,13 +1,14 @@
 * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: #fff;
 }
 
-/* navbar section */
+/*-- navbar section --*/
 #navbar {
     background-color: #fff;
     display: flex;
@@ -39,13 +40,18 @@ body{
     align-items: center;
 }
 
+#currency {
+    font-size: 13px;
+    padding: 5px;
+}
+
 .nav-buttons {
     display: flex;
     gap: 23px;
 }
 
-/*Hero Section */
-#hero{
+/*-- Hero Section --*/
+#hero {
     height: 85vh;
     background-image: url('./images/bg.webp');
     background-position: center;
@@ -53,7 +59,7 @@ body{
     background-size: cover;
 }
 
-#hero div{
+#hero div {
     height: 85vh;
     color: #fff;
     border: 2px solid;
@@ -62,34 +68,33 @@ body{
     justify-content: end;
 }
 
-#hero div > span{
-    padding-left: 23px;
+#hero div>span {
+    padding-left: 51px;
     font-size: 48px;
 }
 
-/* Book your appointment section */
-.appoint-container{
+/*-- Book your appointment section --*/
+.appoint-container {
     display: flex;
     height: 86px;
+    padding: 8px 0px 14px 0;
     align-items: center;
 }
 
-.appoint-container p{
+.appoint-container p {
     width: 50%;
-    /* border: 2px solid; */
     font-size: 18px;
-    padding: 0 87px;
+    padding: 0px 56px;
 }
 
-.appoint-container div{
+.appoint-container div {
     width: 50%;
-    /* border: 2px solid red; */
     display: flex;
     align-items: center;
 }
 
-.appoint-container div button{
-    padding:20px  23px;
+.appoint-container div button {
+    padding: 20px 23px;
     border-radius: 6px;
     font-size: 17px;
     font-weight: bold;
@@ -99,8 +104,52 @@ body{
     transition: all .3s;
 }
 
-.appoint-container div button:hover{
+.appoint-container div button:hover {
     background-color: rgb(21, 21, 21);
 }
 
+/*-- How it Works section --*/
+#work-flow {
+    padding: 37px;
+    background-color: rgba(241, 241, 241, 1);
+    color: #383838;
+    height: 230px;
+}
 
+#work-flow>* {
+    padding: 16px;
+}
+
+#work-flow>h2 {
+    font-size: 26px;
+}
+
+.work-flow-container {
+    display: flex;
+}
+
+.work-flow-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.work-flow-cards>p {
+    font-size: 24px;
+}
+
+.work-flow-cards>div {
+    height: 1px;
+    width: 75%;
+}
+
+.work-flow-cards>span {
+    font-size: 19px;
+    padding-right: 89px;
+}
+
+.work-flow-cards>span>a {
+    color: #383838;
+}
+
+/*-- online collection section --*/

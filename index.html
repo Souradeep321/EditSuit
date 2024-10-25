@@ -1,53 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
 </head>
+
 <body>
     <!-- navbar section -->
     <nav id="navbar">
-            <ul>
-                <li> <a href="">Shop</a></li>
-                <li> <a href="">About</a></li>
-                <li> <a href="">Book Your Appointment</a></li>
-            </ul>
+        <ul>
+            <li> <a href="">Shop</a></li>
+            <li> <a href="">About</a></li>
+            <li> <a href="">Book Your Appointment</a></li>
+        </ul>
         <h2>EDIT SUITS CO.</h2>
         <div class="nav-buttons-container">
             <select name="currency" id="currency">
                 <option value="India (GBP £)">India (GBP £)</option>
                 <option value="Singapore (SGD $)">Singapore (SGD $)</option>
                 <option value="United Kingdom (GBP £)">United Kingdom (GBP £)</option>
-              </select>
-              <div class="nav-buttons">
+            </select>
+            <div class="nav-buttons">
                 <img width="25" src="./images/search.svg" alt="">
                 <img width="25" src="./images/contact.svg" alt="">
                 <img width="47" src="./images/cart.svg" alt="">
-              </div>
+            </div>
         </div>
     </nav>
 
     <!-- hero section -->
-     <div id="hero">
+    <section id="hero">
         <div>
             <span> FIT JUST GOT</span>
             <span>PERSONAL</span>
         </div>
-     </div>
+    </section>
 
-        <!-- Book your appointment section -->
-         <div class="appoint-container">
-           <p> <strong>Custom tailored suits, shirts, chinos, and outerwear</strong> - made to your personal measurements. Visit our showrooms in London</p>
-           <div >
+    <!-- Book your appointment section -->
+    <div class="appoint-container">
+        <p> <strong>Custom tailored suits, shirts, chinos, and outerwear</strong> - made to your personal
+            measurements.Visit our showrooms in London</p>
+        <div>
             <button>Book Your Appointment</button>
-           </div>
-         </div>
+        </div>
+    </div>
 
+    <!-- How it Works section -->
+    <section id="work-flow">
+        <h2>How it Works</h2>
+        <div class="work-flow-container">
+            <div class="work-flow-cards">
+                <p>1 Book Your Appointment</p>
+                <div class="bg-black"></div>
+                <span><a href="">Book your appointment</a> at one of our stores in the heart of London </span>
+            </div>
+
+            <div class="work-flow-cards">
+                <p>2 Get Measured</p>
+                <div class="bg-black"></div>
+                <span>Choose from our wide range of fabrics and customisations to create your custom items</span>
+            </div>
+
+            <div class="work-flow-cards">
+                <p>3 Enjoy Your Perfect Fit</p>
+                <div class="bg-black"></div>
+                <span>Receive your items in 3-5 weeks. Reorder at our stores or <a href="">online</a> </span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- online collection section -->
 
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
