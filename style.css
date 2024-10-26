@@ -102,10 +102,11 @@ body {
     color: white;
     border: 0;
     transition: all .3s;
+    cursor: pointer;
 }
 
 .appoint-container div button:hover {
-    background-color: rgb(21, 21, 21);
+    background-color: rgb(35, 34, 34);
 }
 
 /*-- How it Works section --*/
@@ -197,7 +198,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 58px;
+    padding: 77px;
     color: #383838;
 }
 
@@ -223,5 +224,54 @@ body {
 #promotion div:nth-child(4) {
     color: #383838;
     font-size: 16px;
+}
+
+/*-- new collection section --*/
+#new-collection{
+    height: 70vh;
+    background-image: url('./images/newcolection.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.new-collection-container{
+    position: absolute;
+    top: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 50%;
+    height: 90%;
+    padding: 16px;
+}
+
+.new-collection-container > span:nth-child(1){
+    font-size:23px ;
+}
+
+.new-collection-container > span:nth-of-type(2) {
+    font-size: 21px;
+}
+
+.new-collection-container > button{
+  width: 218px;
+  padding: 17px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(164, 147, 147, 0);
+  border: 1px solid white;
+  border-radius: 6px;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.new-collection-container > button:hover{
+    background-color: white;
+    color: black;
 }
 

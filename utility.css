@@ -2,6 +2,10 @@
     background-color: black;
 }
 
+.bg-white{
+    background-color: white;
+}
+
 .line{
     height: 1px;
 }
